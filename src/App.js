@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 
 import ProgressBar from './components/ProgressBar'
+import KrellGauge from './components/KrellGauge'
 
 const low = 40
 const high = 400
@@ -38,6 +39,9 @@ class App extends Component {
         </p>
         <ProgressBar width={200} height={20} low={low} high={high} value={this.state.value} />
         <p>Showing {this.state.value} in range [{low}..{high}] {dir}</p>
+        <div>
+          <KrellGauge />
+        </div>
       </div>
     )
   }
