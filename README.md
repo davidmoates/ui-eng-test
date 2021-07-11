@@ -35,9 +35,6 @@ that consists of multiple `ProgressBar`s in series, each showing a range a power
 - Feel free to ask questions and to use any references you would normally use in your work.
 - That said, we do expect this to be entirely your own work.  References are OK, collaboration is not.
 - Anything not specified above is free for you to implement how you see fit. For example, the spec doesn't say anything about layout, so feel free to lay things out any way you like, or not at all.
-  
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-
-

@@ -58,7 +58,7 @@ class ProgressBar extends Component {
   componentDidMount(prevProps, prevState) {
     this._draw()
   }
-  
+
   /*
    * Draw on an update
    */
